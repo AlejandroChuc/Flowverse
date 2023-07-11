@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.imagen{
+  background-image: url('https://img.freepik.com/foto-gratis/hermosas-flores-color-violeta_144627-15705.jpg?w=826&t=st=1688709738~exp=1688710338~hmac=7c763658aa778afc83d59e44b9001a5230c33c53a29d94a2cc0c00c1de812256');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.bg-fondo {
+  background-image: url('C:\Users\crist\Downloads\integradora\frontend\src\components\layout\tulipanes-espacio-copia-dia-madre.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.search-bot{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.espaciado{
+  letter-spacing:22px;
+  text-shadow: 2px #1a1a1a;
+}
+
+
+.img{
+  background-image: url('https://www.freepik.es/foto-gratis/planta-cara-pimiento-olla-pequena_11295159.htm#query=flores%20en%20macetas&position=23&from_view=search&track=ais');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

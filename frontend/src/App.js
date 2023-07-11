@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Inicio from './pages/inicio';
+import Navbar from './components/layout/navbar';
+import Card from './components/card';
+import DetallesProducto from './pages/vistaproducto';
+import Carrito from './pages/carrito';
+import AcercaDe from './pages/acerca';
+import Register from './pages/register';
+import Inicio_cesion from './pages/cesion';
+import Perfil from './pages/perfil';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Routes>
+      
+      <Route path='/' element={<Inicio/>}></Route>
+      <Route path='/card' element={<Card/>}></Route>
+      <Route path='/vistaproducto' element={<DetallesProducto/>}></Route> 
+      <Route path='/carrito' element={<Carrito/>}></Route>
+      <Route path='/acercade'element={<AcercaDe/>}></Route>
+      <Route path='/registro' element={<Register/>}></Route>
+      <Route path='/login' element={<Inicio_cesion/>}></Route>
+      <Route path='/perfil' element={<Perfil/>}></Route>
+      <Route path='/*'errorElement={"Pagina no encontrada"}></Route>
+    </Routes>
+
   );
 }
 
