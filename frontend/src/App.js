@@ -2,7 +2,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/inicio';
-import Navbar from './components/layout/navbar';
 import Card from './components/card';
 import DetallesProducto from './pages/vistaproducto';
 import Carrito from './pages/carrito';

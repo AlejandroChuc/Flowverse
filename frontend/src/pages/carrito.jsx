@@ -7,11 +7,11 @@ import 'boxicons'
 function Carrito() {
     return (
         <>
-        <Navbar/>
+            <Navbar />
             <div className="flex ">
-            
+
                 <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-52 border-4 border-colorcarrito rounded-2xl ">
-                <img src="../components/layout/mano-sosteniendo-ramo-flores.jpg" alt="Texto alternativo de la imagen" />
+                    <img src="../components/layout/mano-sosteniendo-ramo-flores.jpg" alt="Texto alternativo de la imagen" />
                 </div>
                 <div className="flex-row">
                     <div className="bg-colorcarrito w-[25rem] h-[-3rem] ml-[7rem] mt-[13rem] border-colorcarritosec rounded-2xl border-4 p-4">
@@ -26,17 +26,17 @@ function Carrito() {
                 </div>
             </div>
             <div className="flex-row">
-            <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-[-16rem] border-4 border-colorcarrito rounded-2xl">
-                
+                <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-[-16rem] border-4 border-colorcarrito rounded-2xl">
+
+                </div>
+                <div className=" bg-colorcarrito w-[56rem] h-[1rem] ml-[12rem] mt-[1rem] border-4 border-colorcarritosec p-2 rounded-2xl">
+
+                </div>
+
+
+
             </div>
-            <div className=" bg-colorcarrito w-[56rem] h-[1rem] ml-[12rem] mt-[1rem] border-4 border-colorcarritosec p-2 rounded-2xl">
-            
-            </div>
-            
-            
-                
-            </div>
-           <Footer/>    
+            <Footer />
         </>
     )
 }
