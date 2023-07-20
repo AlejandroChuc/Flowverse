@@ -22,7 +22,7 @@ const cartas = [
   }
 ];
 
-const CatalogoCartas = () => {
+const Catalogo = () => {
     return (
       <div>
         <h1>Catálogo de Cartas</h1>

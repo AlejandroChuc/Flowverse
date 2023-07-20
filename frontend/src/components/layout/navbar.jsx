@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import 'boxicons'
+import logo from "../../img/logo.png";
 
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
     <>
       <div className="bg-miColor text-black absolute top-0 w-full right-0 flex flex-row justify-between px-20 py-6 items-center">
         <div>
-          <Link to="/"><img className="h-28" src=""/></Link>
+          <Link to="/"><img className="h-28" src={logo}/></Link>
         </div>
         <div className="mx-auto block">
           <div className="flex flex-row items-center">

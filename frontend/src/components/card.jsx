@@ -1,22 +1,30 @@
 import { Outlet } from "react-router-dom";
-
+import 'boxicons'
+import imagen_card from "../img/hermoso-ramo-rosas-rosadas-aislado-blanco.jpg";
 
 function Card() {
     return (
         <>
-            <div className="w-[15rem] h-[20rem] bg-white shadow-md rounded-lg p-4 relative">
-                <div className="flex justify-between items-center">
-                    
-                    <div>
-                        <i className="bx bx-heart text-gray-500 text-xl" />
-                        <i className="bx bx-heart text-red-500 text-xl absolute top-0 right-0 hidden" />
+            <div>
+                <div className=" w-[21rem] h-[28rem] rounded-xl border-4 border-colorcarritosec">
+
+                    <div className="bg-red-200 mt-[0.5rem] ml-[0.2rem] w-[20rem] h-[17rem] rounded-xl">
+                        <img className="object-cover mr-2 h-[17rem] w-[20rem] rounded-xl border-4 border-colorcarritosec" src={imagen_card} alt="" />
+                    </div>
+                    <div className="ml-[0.7rem] mt-[1rem] w-[19rem] h-[4rem] rounded-sm"> 
+                    <h1>Ramo de flores frescas de colores aislado</h1>
+                    </div>
+                    <div className="flex">
+                        <div className="bg-red-500 ml-[0.7rem] mt-[0.5rem] w-[8rem] h-[4rem] rounded-sm">
+                            <h4>$550 mxn</h4>
+                        </div>
+                        <div className=" ml-[3rem] mt-[0.5rem] w-[8rem] h-[4rem] rounded-sm">
+                            <button className="ml-[5rem]"><box-icon name='cart-alt' color='#9f486d' size="lg" ></box-icon> </button>
+                        </div>
                     </div>
                 </div>
-                <img src="frontend\img\hermoso-ramo-flores-frescas-colores-aislado-espacio-blanco.jpg" alt="123" className="mt-4" />
-                <h2 className="text-lg font-semibold">Rosas rojas y verdes</h2>
-                <p className="mt-2 text-gray-600">$99.99</p>
             </div>
-            <Outlet/>
+            <Outlet />
         </>
     )
 }

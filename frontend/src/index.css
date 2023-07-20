@@ -26,7 +26,7 @@ code {
 
 
 .bg-fondo {
-  background-image: url('https://www.freepik.es/foto-gratis/tulipanes-espacio-copia-dia-madre_7021084.htm#query=Tulipanes%20rosas&position=0&from_view=search&track=ais');
+  background: url(./img/tulipanes_rosas.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,3 +52,24 @@ code {
   background-position: center;
 }
 
+.bg-fondo1 {
+  background: url(./img/chico-guapo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.bg-fondo2 {
+  background: url(./img/ramo-rico-hecho-rosas-rojas-encuentra-afuera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-fondo3 {
+  background: url(./img/ramo-rosas-rojas-san-valentin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
