@@ -10,10 +10,35 @@ function Carrito() {
         <>
             <Navbar />
             <div className="flex ">
-
                 <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-52 border-4 border-colorcarrito rounded-2xl ">
-                    <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
-                        <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                    <div className=" ml-auto w-[2rem] h-[1rem]">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="flex">
+                        <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
+                            <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                        </div>
+                        <div className="   mt-[1rem] ml-[3rem] w-[15rem] h-[4rem]">
+                            <h1> Maceta De Lily Rosas Y Rosas Topaz</h1>
+                            <p>precio:$123 mxn</p>
+                        </div>
+                        <div className="flex flex-row bg-green-400 mt-[9rem] mr-[1rem] w-[3rem] h-[3rem]">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
+                            <h1>1</h1>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className="flex-row">
@@ -30,16 +55,38 @@ function Carrito() {
             </div>
             <div className="flex-row">
                 <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-[-16rem] border-4 border-colorcarrito rounded-2xl">
-                    <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
-                        <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                    <div className=" ml-auto w-[2rem] h-[1rem]">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="flex">
+                        <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
+                            <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                        </div>
+                        <div className="   mt-[1rem] ml-[3rem] w-[15rem] h-[4rem]">
+                            <h1> Maceta De Lily Rosas Y Rosas Topaz</h1>
+                            <p>precio:$123 mxn</p>
+                        </div>
+                        <div className="flex flex-row bg-green-400 mt-[9rem] mr-[1rem] w-[3rem] h-[3rem]">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
+                            <h1>1</h1>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className=" bg-colorcarrito w-[56rem] h-[1rem] ml-[12rem] mt-[1rem] border-4 border-colorcarritosec p-2 rounded-2xl">
-
                 </div>
-
-
-
             </div>
             <Footer />
         </>

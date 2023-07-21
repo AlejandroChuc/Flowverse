@@ -1,42 +1,28 @@
 import React from 'react';
+import Navbar from '../components/layout/navbar';
+import Card from '../components/card';
 
-// Array de cartas
-const cartas = [
-  {
-    id: 1,
-    titulo: 'Carta 1',
-    imagen: 'ruta-de-la-imagen-1.jpg',
-    descripcion: 'Descripción de la carta 1'
-  },
-  {
-    id: 2,
-    titulo: 'Carta 2',
-    imagen: 'ruta-de-la-imagen-2.jpg',
-    descripcion: 'Descripción de la carta 2'
-  },
-  {
-    id: 3,
-    titulo: 'Carta 3',
-    imagen: 'ruta-de-la-imagen-3.jpg',
-    descripcion: 'Descripción de la carta 3'
-  }
-];
 
-const Catalogo = () => {
-    return (
-      <div>
-        <h1>Catálogo de Cartas</h1>
-        <div className="catalogo">
-          {cartas.map(carta => (
-            <div className="carta" key={carta.id}>
-              <img src={carta.imagen} alt={carta.titulo} />
-              <h2>{carta.titulo}</h2>
-              <p>{carta.descripcion}</p>
-            </div>
-          ))}
-        </div>
+
+function Catalogo() {
+  return (
+    <>
+      <Navbar />
+      <button>
+      <div className='bg-miColor ml-[12rem] mt-[15rem] w-[15rem] h-[2.9rem] border-4 border-colorSec items-center'>
+        <h1 className='text-navbarletras text-left '>F I L T R O S</h1>
+        <div className='  ml-[13rem] flex-grow'>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          </div>
       </div>
-    );
-  };
-  
-  export default CatalogoCartas;
+      </button>
+      <div className='ml-[12rem] mt-[5rem] '>
+        <Card/>
+      </div>
+    </>
+  )
+}
+
+export default Catalogo;

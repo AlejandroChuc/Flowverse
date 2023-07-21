@@ -9,6 +9,7 @@ import AcercaDe from './pages/acerca';
 import Register from './pages/register';
 import Inicio_cesion from './pages/cesion';
 import Perfil from './pages/perfil';
+import Catalogo from './pages/catalogo';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       
       <Route path='/' element={<Inicio/>}></Route>
       <Route path='/card' element={<Card/>}></Route>
+      <Route path='/catalogo' element={<Catalogo/>}></Route>
       <Route path='/vistaproducto' element={<DetallesProducto/>}></Route> 
       <Route path='/carrito' element={<Carrito/>}></Route>
       <Route path='/acercade'element={<AcercaDe/>}></Route>
