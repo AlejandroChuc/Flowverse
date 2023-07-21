@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/layout/navbar";
 import Footer from "../components/layout/footer";
 import 'boxicons'
-import imagen1 from "../"
+import imagen_carro from "../img/ramo-rico-hecho-rosas-rojas-encuentra-afuera.jpg"
 
 
 function Carrito() {
@@ -12,7 +12,9 @@ function Carrito() {
             <div className="flex ">
 
                 <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-52 border-4 border-colorcarrito rounded-2xl ">
-                    <img src="../components/layout/mano-sosteniendo-ramo-flores.jpg" alt="Texto alternativo de la imagen" />
+                    <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
+                        <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                    </div>
                 </div>
                 <div className="flex-row">
                     <div className="bg-colorcarrito w-[25rem] h-[-3rem] ml-[7rem] mt-[13rem] border-colorcarritosec rounded-2xl border-4 p-4">
@@ -28,7 +30,9 @@ function Carrito() {
             </div>
             <div className="flex-row">
                 <div className="  w-[56rem] h-[20rem] ml-[12rem] mt-[-16rem] border-4 border-colorcarrito rounded-2xl">
-
+                    <div className=" w-[25rem] h-[18rem] ml-5 mt-2 ">
+                        <img src={imagen_carro} alt="Texto alternativo de la imagen" />
+                    </div>
                 </div>
                 <div className=" bg-colorcarrito w-[56rem] h-[1rem] ml-[12rem] mt-[1rem] border-4 border-colorcarritosec p-2 rounded-2xl">
 
